@@ -1,0 +1,775 @@
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Karma&display=swap');
+
+
+
+.center{
+	width: 1186px;
+}
+
+
+.first-part{
+	background-image: url(../image/ph1.svg);
+	display: flex;
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: cover;
+	min-width: 100%;
+}
+
+.text-part{
+	position: relative;
+	width: 1020px;
+	height: 656px;
+	/*border: 1px solid black;*/
+	margin-left: 400px;
+	margin-top: 45px;
+	display: flex;
+
+}
+
+
+.header-part-right{
+	display: inline-block;
+	position: absolute;
+	padding-left:706px;
+	padding-top:22px;
+}
+
+.header-part-right li a{
+	color: #212121;
+	font-family: 'Open Sans';
+	font-size: 14px;
+	padding-right: 50px;
+	letter-spacing: 2px;
+}
+
+.header-part-right li a i{
+	color: rgba(112,112,112,.6);
+}
+
+
+.header-part-middle{
+	/*border: 1px solid black;*/
+	width: 450px;
+	height: 350px;
+	top: 180px;
+	position: absolute;
+}
+
+.header-part-middle  h1{
+	text-transform: uppercase;
+	margin: 30px 0 0 2px;
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 94px;
+	color: #212121;
+
+
+}
+
+.header-part-middle li p{
+
+	font-size: 18px;
+	font-family:'Karma', serif;
+	padding-top: 50px;
+	color: #9E9E9E;
+}
+
+.header-part-middle a button{
+
+	margin-top: 64px;
+	width: 170px;
+	height: 55px;
+	color: #000;
+	transition: 0.5s;
+	font-family: 'Open Sans';
+	font-size: 14px;
+	background: transparent;
+	border-bottom: 1px solid #212121;
+}
+
+.header-part-middle a button:hover{
+	
+	background-color: #212121;
+	color: #fff;
+	font-family: 'Open Sans';
+	font-size: 14px;
+	transition-timing-function: ease;
+}
+
+/**/
+
+.bck-pht2{
+	background-image: url("../image/ph2.svg");
+	height: 700px;
+	display: flex;
+}
+
+.all-main{
+	position: relative;
+	/*border: 1px solid black;*/
+	width: 1120px;
+	height: 428px;
+	top: 225px;
+	left: 400px;
+	display: flex;
+	
+}
+
+.main-photo{
+	width:385px;
+	height: 428px; 
+	background: url("../image/ph3.svg") no-repeat center ;
+	float: left;
+	flex-wrap: wrap;
+}
+
+.main-text{
+	position: absolute;
+	width: 736px;
+	height: 427px;
+	background-color: white;
+	left: 385px;
+	top: 0;
+	float: left;
+	
+}
+
+
+.main-text a h1{
+	text-transform: uppercase;
+	font-family: "Julius Sans One";
+	font-size: 32px;
+	margin-left: 305px;
+	margin-top: 75px;
+	letter-spacing: 7px;
+	color: #212121;
+	display: inline-block;
+	
+
+}
+
+.main-text pre{
+	position: absolute;
+    margin-left: 96px;
+	margin-top: 30px;
+	font-family: 'Karma';
+	font-size: 18px;
+	color: #9E9E9E;
+ }
+
+ .main-text a button{
+ 	position: relative;
+ 	text-transform: uppercase;
+ 	font-family: 'Open Sans';
+ 	font-size: 14px;
+ 	color: #212121;
+ 	background: transparent;
+ 	padding: 14px;
+ 	/*border-bottom: 1px solid black;*/
+ 	margin:195px 0 0 314px;
+ 	letter-spacing: 5px; 
+
+
+ }
+
+ .main-text a button:hover{
+ 	border-bottom: 2px solid #212121;
+ 	padding: 18px;
+ 	font-size: 18px;
+ 	transition: 0.5s;
+ 	transition-timing-function: ease;
+ }
+
+ /**/
+ 
+.mid-menu3{
+ 	/*border: 1px solid black;*/
+ 	height: 325px;
+ 	margin-top: 125px;
+ 	margin-left: 400px;
+ 	display: flex;
+
+
+ }
+
+ .mid-menu3-left{
+ 	display: inline-block;
+ 	width: 256px;
+ 	height: 323px;
+ 	margin-right: 175px;
+ 	/* float: left; */
+ }
+
+ .mid-menu3-mid{
+ 
+ 	/*border: 1px solid black;*/
+ 	width: 256px;
+ 	height: 323px;
+ 	margin-right: 175px;
+ 	float: left;
+ }
+
+
+ .mid-menu3-right{
+ 
+ 	/*border: 1px solid black;*/
+ 	width: 256px;
+ 	height: 323px;
+ 	float: left;
+ }
+
+ .icon1{
+ 	width: 160px;
+ 	height: 160px;
+ 	border-radius: 50%;
+ 	/*border:1px solid black;*/
+    background-color: #FBFBFB;
+	margin-left: 48px;
+ 	
+ }
+
+ .icon1 img{
+ 	width: 36px;
+ 	height: 48px;
+ 	margin-left: 62px;
+ 	margin-top: 56px;
+ }
+
+ .pointer a button{
+ 		font-family: 'Julius Sans One';
+ 		font-size: 23px;
+ 		text-transform: uppercase;
+ 		letter-spacing: 5px;
+ 		margin-left: 55px;
+ 		margin-top: 35px;
+ 		color: #212121;
+ 		background: transparent;
+ 		cursor: pointer;
+
+ }
+
+
+.pointer pre{
+
+	padding: 10px;
+	font-size: 16px;
+	color: #9E9E9E;
+	font-family: 'Karma';
+	margin-top: 23px;
+}
+
+.plane a button{
+	font-family: 'Julius Sans One';
+	font-size: 23px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	margin-left: 80px;
+	margin-top: 5px;
+	color: #212121;
+	background:transparent;
+	cursor: pointer;
+
+}
+
+
+.plane pre{
+	margin-top: 23px;
+	font-size: 16px;
+	font-family: 'Karma';
+	color: #9E9E9E;
+	padding: 5px;
+
+}
+
+.icon2{
+	width: 160px;
+	height: 160px;
+	/*border: 1px solid black;*/
+	border-radius: 50%;
+	background-color: #FBFBFB;
+	margin-top: 30px;
+	margin-left: 48px;
+}
+
+.icon2 img{
+	margin-left: 55px;
+	margin-top: 55px;
+}
+
+.icon3{
+	width: 160px;
+	height: 160px;
+	/*border:1px solid black;*/
+	border-radius: 50%;
+	background-color: #FBFBFB;
+	margin-left: 45px;
+}
+
+.icon3 img{
+	margin-left: 50px;
+	margin-top: 50px;
+}
+
+.map a button{
+	text-transform: uppercase;
+	font-family: 'Julius Sans One';
+	font-size: 23px;
+	color: #212121;
+	margin:42px 96px 0 96px; 
+	background: transparent;
+}
+
+
+.map pre{
+	font-size: 16px;
+	font-family: 'Karma';
+	color: #9E9E9E;
+	padding: 5px;
+	margin-top: 20px;
+}
+
+.mid-menu3 button:hover{
+
+	border-bottom: 2px solid black;
+	font-size: 28px;
+	transition: 1s;
+ 	transition-timing-function: ease;
+
+}
+
+/**/
+
+ .bck-pht4{
+ 	height: 700px;
+ 	margin-top: 105px;
+
+}
+
+.bck-img{
+	position: relative;
+	padding-top: 20px;
+	display: inline-flex;
+	
+
+}
+
+.part1 {
+	
+	width: 750px;
+	height: 680px;
+	display: flex;
+	}
+
+.text1{
+	margin-left: 375px;
+	margin-top: 30px;
+}
+
+.text1 h1{
+	font-family: 'Julius Sans One';
+	font-size: 23px;
+	color: #212121;
+	text-transform: uppercase;
+}
+
+.text1 pre{
+	margin-top: 20px;
+	font-size: 16px;
+	font-family: 'Karma';
+	color: #9E9E9E;
+}
+
+.text1 a button{
+	text-transform: uppercase;
+	font-size: 14px;
+	width: 55px;
+	padding-bottom: 10px;
+	margin-top: 20px;
+	background: transparent;
+	transition-timing-function: ease;
+	transition: .8s;
+	cursor: pointer;
+}
+
+.text1 a button:hover{
+	border-bottom: 2px solid #212121;
+	font-size: 18px;
+	width: 60px;
+
+}
+
+
+.part2{
+	width: 415px;
+	height: 680px;
+}
+
+
+.text2{
+	margin-left: 80px;
+	margin-top: 30px;
+}
+
+.text2 h1{
+	font-family: 'Julius Sans One';
+	margin-left: 80px;
+	font-size: 23px;
+	color: #212121;
+	text-transform: uppercase;
+}
+
+.text2 pre{
+	margin-top: 20px;
+	font-size: 16px;
+	font-family: 'Karma';
+	color: #9E9E9E;
+}
+
+.text2 a button{
+	text-transform: uppercase;
+	font-size: 14px;
+	width: 55px;
+	padding-bottom: 10px;
+	margin-top: 20px;
+	margin-left: 80px;
+	background: transparent;
+	transition-timing-function: ease;
+	transition: .8s;
+	cursor: pointer;
+}
+
+.text2 a button:hover{
+	border-bottom: 2px solid #212121;
+	font-size: 18px;
+	width: 60px;
+
+}
+
+.part3{
+	width: 752px;
+	height: 680px;
+}
+
+.text3{
+	margin-left: 95px;
+	margin-top: 30px;
+}
+
+.text3 h1{
+	font-family: 'Julius Sans One';
+	margin-left: 100px;
+	font-size: 23px;
+	color: #212121;
+	text-transform: uppercase;
+}
+
+.text3 pre{
+
+	margin-top: 20px;
+	font-size: 16px;
+	font-family: 'Karma';
+	color: #9E9E9E;
+}
+
+.text3 a button{
+	text-transform: uppercase;
+	font-size: 14px;
+	width: 55px;
+	padding-bottom: 10px;
+	margin-top: 20px;
+	margin-left: 190px;
+	background: transparent;
+	transition-timing-function: ease;
+	transition: .8s;
+	cursor: pointer;
+}
+
+.text3 a button:hover{
+	border-bottom: 2px solid #212121;
+	font-size: 18px;
+	width: 60px;
+
+}
+
+/**/
+.bck-pht5{
+	margin-top: 125px;
+	width: 1920px;
+	height: 905px;
+	/*border:1px solid black;*/
+	background-color: #FBFBFB;
+	display: inline-block;
+
+}
+
+.bck5-header {
+	margin-top: 75px;
+}
+
+.bck5-header h1{
+	text-align: center;
+	font-family: 'Julius Sans One';
+	font-size: 32px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.bck5-divs{
+	width: 1120px;
+	height: 540px;
+	margin-top: 75px;
+	margin-left:425px;
+	display: flex;
+	/*border: 1px solid black;*/
+	justify-content: space-between;
+
+}
+
+.divs{
+	width: 352px;
+	height: 536px;
+	background-color: #fff;
+	/*border: 1px solid black;*/
+
+}
+
+
+.a  h1{
+	margin-top: 25px;
+	padding: 5px 0;
+	text-transform: uppercase;
+	font-family: 'Julius Sans One';
+	font-size: 23px;
+	color: #212121;
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+.a  pre{
+	margin-top: 23px;
+	padding: 5px 0;
+	text-align: center;
+	font-family: 'Karma';
+	font-size: 16px;
+	color: #9E9E9E;
+
+}
+/**/
+.line{
+	/*border:1px solid black;*/
+	height: 44px;
+	width: 260px;
+	margin-top: 25px;
+	margin-left: 50px;
+}
+ .line p{
+ 	font-size: 24px;
+ 	color: #212121;
+ 	position: relative;
+ 	text-align: center;
+ 	font-weight: bold;
+
+ 	
+ }
+
+ .line p:before{
+ 	content: "";
+ 	display: block;
+ 	width: 84px;
+ 	height: 1px;
+ 	background: #E0E0E0;
+ 	position: absolute;
+ 	left: 0;
+ 	top: 50%;
+ 	
+
+
+ }
+
+  .line p:after{
+ 	content: "";
+ 	display: block;
+ 	width: 84px;
+ 	height: 1px;
+ 	background: #E0E0E0;
+ 	position: absolute;
+ 	right: 0;
+ 	top: 50%;
+ 	
+ 	
+
+ }
+
+.a  button{
+	margin-left: 90px;
+	margin-top: 25px;
+	width: 170px;
+	height: 56px;
+	background: transparent;
+	border: 1px solid #212121;
+	cursor: pointer;
+
+}
+
+.a a{
+	font-family: "Open Sans";
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #212121;
+	letter-spacing: 3px;
+}
+
+.b  h1{
+	margin-top: 25px;
+	padding: 5px 0;
+	text-transform: uppercase;
+	font-family: 'Julius Sans One';
+	font-size: 23px;
+	color: #212121;
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+.b  pre{
+	margin-top: 23px;
+	padding: 5px 0;
+	text-align: center;
+	font-family: 'Karma';
+	font-size: 16px;
+	color: #9E9E9E;
+}
+
+.b  button{
+	margin-left: 90px;
+	margin-top: 25px;
+	width: 170px;
+	height: 56px;
+	background: transparent;
+	border: 1px solid #212121;
+	cursor: pointer;
+
+}
+
+.b a{
+	font-family: "Open Sans";
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #212121;
+	letter-spacing: 3px;
+}
+
+.c  h1{
+	margin-top: 25px;
+	padding: 5px 0;
+	text-transform: uppercase;
+	font-family: 'Julius Sans One';
+	font-size: 23px;
+	color: #212121;
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+.c  pre{
+	margin-top: 23px;
+	padding: 5px 0;
+	text-align: center;
+	font-family: 'Karma';
+	font-size: 16px;
+	color: #9E9E9E;
+}
+
+.c  button{
+	margin-left: 90px;
+	margin-top: 25px;
+	width: 170px;
+	height: 56px;
+	background: transparent;
+	border: 1px solid #212121;
+	cursor: pointer;
+
+}
+
+.c a{
+	font-family: "Open Sans";
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #212121;
+	letter-spacing: 3px;
+}
+
+.p-n{
+	margin-top: 70px;
+	margin-left: 920px;
+	width: 125px;
+	height: 15px;
+	
+}
+
+ .a1{
+	margin-right: 87px;
+}
+
+.p-n a{
+	color: #212121;
+}
+/**/
+.end{
+	width: 1111px;
+	height: 70px;
+	margin-top: 85px;
+	margin-left: 425px;
+	display: flex;
+}
+
+
+.list1{
+	display: inline-block;
+	margin-top: 25px;
+
+}
+
+.list1 ul li{
+	display: inline-block;
+	margin-right: 40px;
+}
+
+.list1 ul li a{
+	color: #212121;
+	font-family: 'Open Sans';
+	font-size: 14px;
+	letter-spacing: 5px;
+}
+
+.list2{
+	margin-left:  175px;
+}
+
+.list2 span{
+	font-size: 32px;
+	color: #9E9E9E;
+	padding-left: 60px;
+	padding-top: 10px;
+
+}
+
+.list2 p{
+	font-family: 'Open Sans';
+	font-size: 11px;
+	color: #9E9E9E;
+	padding-top: 5px;
+}
+
+.list3{
+	margin:25px 0 0 350px;
+}
+
+.list3  i{
+	color: #9E9E9E;
+	padding-right: 25px;
+}
+
+
+
+
+
